@@ -1,0 +1,30 @@
+.header{
+	background-color: #fffbf5;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DC8718;
+    box-shadow: -1px -2px 8px 0px rgba(220,135,24, 0.8);
+    z-index: 111;
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fffbf5;
+}
+.header li{
+	float:right;
+	margin-top: 25px;
+}
+.header li i{
+	padding-right:10px;
+}
